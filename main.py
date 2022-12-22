@@ -25,7 +25,7 @@ def get_one_cookie(id:str):
     return serializeDict(conn.local.cookie.find_one({"_id":ObjectId(id)}))
 
 # Get Cookie
-@app.post("/cookies",tags=["cookies"])
+@app.post("/cookies",dependencies=[Depends(jwtBearer())],tags=["cookies"])
 def add_cookie(instagram:InstagramSchema):
     
     payload = {
