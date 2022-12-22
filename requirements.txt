@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pymongo
+
+PyJWT
+python-decouple
+pydantic[email]
+requests
