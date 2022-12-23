@@ -5,3 +5,6 @@ Also, clients **without authentication** can not use the **"cookies/add_cookie_c
 
 However, in some cases, when I want to log in by the Request library, scripts cannot go forward because Instagram gets **suspicious** and wants to send the verifying code.   
 To solve that, I want to use **Selenium** instead of Request.
+
+## OUTPUT
+![output](https://github.com/hoco1/instagram-web-scraping/blob/master/img/Screenshot%202022-12-23%20125424.jpg)
